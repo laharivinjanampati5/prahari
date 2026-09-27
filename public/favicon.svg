@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Circular Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2545" />
+      <stop offset="100%" stop-color="#134074" />
+    </linearGradient>
+    <linearGradient id="saffronGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9933" />
+      <stop offset="100%" stop-color="#FF6B00" />
+    </linearGradient>
+    <linearGradient id="radarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)" />
+  <rect x="1.5" y="1.5" width="61" height="61" rx="14.5" stroke="#FF9933" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- Radar circles -->
+  <circle cx="32" cy="32" r="22" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="3 3" />
+  <circle cx="32" cy="32" r="14" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4" />
+  
+  <!-- Cloud & Lightning Weather Symbol -->
+  <!-- Cloud base -->
+  <path d="M22 36a7 7 0 0 1 1.2-13.9 9 9 0 0 1 17.6 1.9 6 6 0 0 1 5.2 6 6 6 0 0 1-6 6H22z" fill="#FFFFFF" fill-opacity="0.95" />
+  
+  <!-- Cyclone / Extreme weather storm lightning bolt -->
+  <path d="M33 33l-5 9h5l-2 7 9-11h-5l3-5z" fill="url(#saffronGrad)" />
+
+  <!-- Pulse / Alert Dot -->
+  <circle cx="45" cy="19" r="3.5" fill="#FF4444" />
+  <circle cx="45" cy="19" r="5.5" stroke="#FF4444" stroke-width="1" stroke-opacity="0.5" />
+</svg>
